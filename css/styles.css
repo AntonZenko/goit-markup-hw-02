@@ -1,4 +1,228 @@
+/* main text color  #212121  */
+/* second text color #757575  */
+/* contacts text color rgba(255, 255, 255, 0,6)  */
+/* text color 3 #FFFFFF  */
+/* accent text color: #2196F3;  */
+/* hero+footer background color #2F303A  */
+/* section 4, buttons color #F5F4FA */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --base-white-color: #ffffff;
+  --hero-footer-bgc: #2f303a;
+}
+
 body {
-    background-color: #fff
-    color #2a2a2a
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header nav */
+
+.site-nav .link,
+.site-nav .contacts {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  text-decoration: none;
+  color: var(--accent-text-color);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.logo > span {
+  text-decoration: none;
+  color: var(--accent-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.site-nav .current {
+  color: var(--accent-text-color);
+}
+
+/* header contacts */
+.site-nav .contacts {
+  color: var(--primary-text-color);
+}
+
+.site-nav .contacts:hover,
+.site-nav .contacts:focus {
+  color: var(--accent-text-color);
+}
+/* hero */
+
+.hero {
+  background-color: var(--hero-footer-bgc);
+}
+
+.hero-title {
+  color: var(--base-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button {
+  display: inline-block;
+  color: var(--base-white-color);
+  background: var(--accent-text-color);
+  padding: 10px 32px;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover,
+button:focus {
+  background: #f5f4fa;
+  color: var(--title-text-color);
+}
+
+/* section features */
+
+.features h2 {
+  display: none;
+}
+
+.features h3 {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.features p {
+  color: var(--primary-text-color);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* section work */
+
+.work h2 {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* section team */
+
+.team h2 {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+.team h3 {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+.team p {
+  color: var(--primary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+/* portfolio - example-nav */
+
+.link.nav {
+  display: inline-block;
+  background: #f5f4fa;
+  color: var(--title-text-color);
+  padding: 6px 22px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.link.nav:hover,
+.link.nav:focus {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+}
+
+/* portfolio - exapmles */
+
+.example h2 {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.example p {
+  color: var(--primary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--hero-footer-bgc);
+}
+
+.footer .logo {
+  color: var(--base-white-color);
+}
+
+.address a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--base-white-color);
+}
+
+.address .contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .map {
+  color: #ffffff;
+}
+
+.address .contacts:hover,
+.address .contacts:focus {
+  color: var(--accent-text-color);
 }
