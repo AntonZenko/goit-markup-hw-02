@@ -191,6 +191,10 @@ button.nav:focus {
 
 /* portfolio - exapmles */
 
+.projects h1 {
+  display: none;
+}
+
 .example h2 {
   color: var(--title-text-color);
   font-weight: bold;
