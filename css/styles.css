@@ -101,6 +101,7 @@ button.order {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
+  text-align: center;
 }
 
 button.order:hover,
@@ -137,6 +138,10 @@ button.order:focus {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+}
+
+.work li {
+  display: inline;
 }
 
 /* section team */
