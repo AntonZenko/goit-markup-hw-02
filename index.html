@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -43,37 +47,43 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <div><button class="order" type="button">Заказать услугу</button></div>
+        <div class="btn">
+          <button class="btn-order" type="button">Заказать услугу</button>
+        </div>
       </section>
 
       <section class="features">
-        <h2>Наши преимущества</h2>
+        <h2 class="features-title">Наши преимущества</h2>
         <ul>
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <h3 class="features-caption">Внимание к деталям</h3>
+            <p class="features-text">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="features-caption">Пунктуальность</h3>
+            <p class="features-text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="features-caption">Планирование</h3>
+            <p class="features-text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <h3 class="features-caption">Современные технологии</h3>
+            <p class="features-text">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
 
       <section class="work">
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="work-caption">Чем мы занимаемся</h2>
 
         <ul>
           <li>
@@ -97,31 +107,31 @@
       </section>
 
       <section class="team">
-        <h2>Наша команда</h2>
+        <h2 class="members">Наша команда</h2>
 
         <ul>
           <li>
             <img src="./images/igor.jpg" alt="igor" width="270" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="name">Игорь Демьяненко</h3>
+            <p class="position">Product Designer</p>
           </li>
 
           <li>
             <img src="./images/olga.jpg" alt="olga" width="270" />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name">Ольга Репина</h3>
+            <p class="position">Frontend Developer</p>
           </li>
 
           <li>
             <img src="./images/nikolai.jpg" alt="nicolai" width="270" />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="name">Николай Тарасов</h3>
+            <p class="position">Marketing</p>
           </li>
 
           <li>
             <img src="./images/mihail.jpg" alt="mihail" width="270" />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="name">Михаил Ермаков</h3>
+            <p class="position">UI Designer</p>
           </li>
         </ul>
       </section>
