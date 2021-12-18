@@ -5,6 +5,7 @@
 /* accent text color: #2196F3;  */
 /* hero+footer background color #2F303A  */
 /* section 4, buttons color #F5F4FA */
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -12,6 +13,7 @@
   --base-white-color: #ffffff;
   --hero-footer-bgc: #2f303a;
   --button-hover: #188ce8;
+  
 }
 
 body {
@@ -54,16 +56,13 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  letter-spacing: 0.03em;
 
 }
 
 .logo > span {
-  text-decoration: none;
   color: var(--accent-text-color);
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
+
 
 }
 
@@ -111,20 +110,16 @@ ul {
   background: var(--accent-text-color);
   padding: 10px 32px;
   text-decoration: none;
+  border: hidden;
   border-radius: 4px;
   cursor: pointer;
 
-  font-family: Roboto; sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 
-  padding: 10px 32px;
-  border: hidden;
-  border-radius: 4px;
 
 }
 
@@ -214,7 +209,6 @@ ul {
   text-decoration: none;
   cursor: pointer;
 
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
